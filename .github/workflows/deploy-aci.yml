@@ -68,5 +68,5 @@ jobs:
         run: |
           az container show `
             --resource-group project6-rg `
-            --name project6-aci `
+            --name project-aci `
             --query ipAddress.fqdn -o tsv
